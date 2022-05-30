@@ -24,12 +24,3 @@ class Testyoutube:
         sleep(1)
         self.driver.quit()
 
-    # def test_gmail(self):
-    #     pytest.skip("test later")
-    #     gmail= driver.find_element(By.XPATH, "//a[normalize-space()='Gmail']")
-    #     gmail.click()
-    #
-    # def test_google_apps(self):
-    #     app= self.find_element(By.XPATH, "//*[name()='path' and contains(@d,'M6,8c1.1,0')]")
-    #     app.click()
-    #
